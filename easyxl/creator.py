@@ -4,10 +4,10 @@ from pathlib import Path
 from openpyxl import Workbook
 
 from easyxl.base import ExcelRange, ExcelTable, WorkbookCreatorBase
-from easyxl.editor import ExcelEditor
+from easyxl.editors import WorkbookEditor
 
 
-class WorkbookCreator(ExcelEditor):
+class WorkbookCreator(WorkbookEditor):
     def __init__(self) -> None:
         self.wb: Workbook = Workbook()
 
