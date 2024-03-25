@@ -1,4 +1,9 @@
-from typing import Optional, Any, Sequence, Collection, Self, Mapping, Literal
+from typing import Optional, Any, Sequence, Collection, Mapping, Literal
+
+try:
+    from typing import Self
+except ImportError:
+    from typing_extensions import Self
 from pathlib import Path
 
 from easyxl.exceptions import InvalidFile, InvalidSheet, InvalidRangeFormat
