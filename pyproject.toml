@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "easyxl"
-version = "0.3.0"
+version = "0.3.1"
 description = ""
 authors = ["Richard Carter <goobysc@gmail.com>"]
 readme = "README.md"
