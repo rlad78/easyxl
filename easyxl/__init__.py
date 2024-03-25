@@ -5,6 +5,6 @@ from .base import (
     ExcelTableWritable,
     NewExcelTable,
 )
-from .editors import WorkbookEditor
+from .editor import WorkbookEditor
 from .reader import WorkbookReader
 from .creator import WorkbookCreator

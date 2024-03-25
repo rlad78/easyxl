@@ -3,8 +3,7 @@ from pathlib import Path
 
 from openpyxl import Workbook
 
-from easyxl.base import ExcelRange, ExcelTable, WorkbookCreatorBase
-from easyxl.editors import WorkbookEditor
+from easyxl.editor import WorkbookEditor
 
 
 class WorkbookCreator(WorkbookEditor):
