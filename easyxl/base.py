@@ -392,7 +392,7 @@ class NewExcelTable(ExcelTableWritable):
         assert isinstance(range, ExcelRangeWritable)
 
         if categories is not None:
-            range.expand(down=-1)
+            range.expand(down=1)
             range.write_to_row(0, categories)
 
         table_name = name if name else self._next_table_name()
